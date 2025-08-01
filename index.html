@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="cont_princ">
+        <header>
+            <img src="./img/logo.png" alt="">
+        </header>
+        <!-- pantalla bienvenida -->
+        <div id="c1" class="cont">
+            <h1>¡Hola! MiBanco te da la bienvenida</h1>
+            <h2>Por favor, ingrese sus datos</h2>            
+            <section class="clasLogueo">
+                <div class="cDni">
+                    <p class="pLogueo">DNI:</p>
+                </div>
+                <div class="cDniInp">
+                    <input id="idDni" type="text" placeholder="escriba su DNI">
+                </div>
+                <div class="cClave">
+                    <p class="pLogueo">Clave:</p>
+                </div>
+                <div class="cClaveInp">
+                    <input id="idClave" type="password">
+                </div>
+            </section>
+            <footer class="clasFootBtn1">
+                <button class="clasBtnLogueo" id="idBtnLogueo" >SIGUIENTE</button>
+            </footer>
+        </div>
+        <!-- menu de opciones -->
+        <div id="c2" class="cont">
+            <h2 class="h2Saludo h2Form"></h2>            
+            <section class="clasMenu">
+                <div class="cMenu">                    
+                    <button class="clasBtnMenu" id="idBtnConsulta" >Consulta de saldo</button>
+                    <button class="clasBtnMenu" id="idBtnIngresar" >Ingresar un monto</button>
+                    <button class="clasBtnMenu" id="idBtnRetirar" >Retirar un monto</button>
+                </div>                
+            </section>
+            <footer class="clasFootBtn1">
+                <button class="clasBtnSalir" id="idBtnSalir1" >SALIR</button>
+            </footer>
+        </div>
+        <!-- pantalla consulta saldo -->
+        <div id="c3" class="cont">                        
+            <section class="clasConsulta">
+                <h2 class="h2Form">CONSULTA DE SALDO</h2>
+                <p class="pConsulta"></p>                
+            </section>
+            <footer class="clasFootBtn1">            
+                <button class="clasBtnSalir" id="idBtnSalir2" >SALIR</button>
+                <button class="clasBtnRegMen" id="idBtnRegMen1" >IR A MENU</button>
+            </footer>
+        </div>
+        <!-- pantalla ingresar monto -->
+        <div id="c4" class="cont">            
+            <h2 class="h2Form">INGRESAR MONTO</h2>            
+            <section class="clasIngresar">                
+                <p class="pIngresar">Ingrese monto a depositar:</p>
+                <input id="idIngresar" type="text" placeholder="ingrese monto">
+                <br/>
+                <button class="clasBtnIngresar" id="idBtnIngAcep" >ACEPTAR</button>
+            </section>
+            <footer class="clasFootBtn1">            
+                <button class="clasBtnSalir" id="idBtnSalir3" >SALIR</button>
+                <button class="clasBtnRegMen" id="idBtnRegMen2" >IR A MENU</button>
+            </footer>
+        </div>
+        <!-- pantalla retirar monto -->
+        <div id="c5" class="cont">
+            <h2 class="h2Form">RETIRAR MONTO</h2>               
+            <section class="clasRetirar">                
+                <p class="pRetirar">Ingrese monto a retirar:</p>
+                <input id="idRetirar" type="text" placeholder="ingrese monto">
+                <br/>
+                <button class="clasBtnRetirar" id="idBtnRetAcep" >ACEPTAR</button>
+            </section>
+            <footer class="clasFootBtn1">            
+                <button class="clasBtnSalir" id="idBtnSalir4" >SALIR</button>
+                <button class="clasBtnRegMen" id="idBtnRegMen3" >IR A MENU</button>
+            </footer>
+        </div>
+        <!-- pantalla de confirmacion -->
+        <div id="c6" class="cont">                        
+            <section class="clasConfirmar">                
+                <p class="pConfirmar"></p>
+            </section>
+            <footer class="clasFootBtn1">            
+                <button class="clasBtnContinuar" id="idBtnContinuar" >CONTINUAR</button>
+            </footer>
+        </div>
+        <!-- pantalla de salida -->
+        <div id="c7" class="cont">                        
+            <section class="clasSalida">                
+                <p class="pSalida">Gracias por su visita, finalizar para retirar la tarjeta</p>
+            </section>
+            <footer class="clasFootBtn1">            
+                <button class="clasBtnVolver" id="idBtnVolver" >FINALIZAR</button>
+            </footer>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

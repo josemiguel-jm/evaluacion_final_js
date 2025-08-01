@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html{
+    background-color: rgb(71, 70, 70);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70%;
+    color: aliceblue;
+}
+
+img{    
+    margin: 5px 10px 5px 0px;
+    max-width:25%;
+}
+
+header{
+    display: flex;
+    width: 550px;
+    height: 70px;
+    background-color:whitesmoke;
+    justify-content: end;    
+}
+
+h1{
+    font:message-box;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+h2{
+    font:message-box;
+    font-size: 1.4rem;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 1px;
+}
+
+.clasIngresar, .clasRetirar{
+    justify-self:center;
+    margin-bottom: 70px;
+}
+
+.h2Form{
+    font-size: 1.6rem;
+    text-align:left;
+    margin-left: 15px;
+    margin-bottom: 35px;
+}
+
+.pConsulta{
+    font-size: 1.5rem;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 150px;
+}
+
+.pSalida, .pConfirmar{
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 90px 10px 0px;
+    margin-bottom: 120px;
+}
+
+.pIngresar, .pRetirar{
+    text-align: center;
+    font-size: 1.4rem;
+    font:message-box;
+    margin-bottom: 15px;
+
+}
+
+.cont_princ{
+    width: 550px;
+    height: 450px;
+    background-position: center center;
+    margin: 100px auto;
+}
+
+.cont{
+    width: 550px;
+    height: 380px;
+    background-color: forestgreen;    
+}
+
+.clasLogueo{
+    display: grid;
+    grid-template-columns: 36% 63%;
+    grid-template-rows: 50% 50%;
+    gap: 15px;
+    margin-top: 12px;
+    margin-bottom: 100px;
+}
+
+.pLogueo{
+    padding-top: 1px;
+    text-align: right;
+    font-size: 1.4rem;
+    font:message-box;
+}
+
+.clasFootBtn1{
+    justify-items:flex-end;
+}
+
+.clasBtnLogueo, .clasBtnSalir, .clasBtnRegMen, .clasBtnContinuar, .clasBtnVolver{
+    background-color: #4caf70;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 14px 28px;
+    transition: transform 0.15s ease-in-out;
+    float: right;
+    margin-right: 15px;
+    font-size: 1.5rem;
+}
+
+.clasBtnLogueo:hover, .clasBtnMenu:hover, .clasBtnSalir:hover, .clasBtnRegMen:hover, .clasBtnContinuar:hover, .clasBtnVolver:hover, .clasBtnIngresar:hover, .clasBtnRetirar:hover {
+  background-color: rgb(152, 159, 150);
+}
+
+.clasBtnLogueo:active, .clasBtnMenu:active, .clasBtnSalir:active, .clasBtnRegMen:active, .clasBtnContinuar:active, .clasBtnVolver:active, .clasBtnIngresar:active, .clasBtnRetirar:active {
+  transform: scale(0.9);
+}
+
+.clasBtnIngresar, .clasBtnRetirar{
+    display: block;
+    font-size: 1.2rem;    
+    background-color: #4caf70;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 9px 30px;
+    transition: transform 0.15s ease-in-out;
+    margin: 15px auto 10px;
+}
+
+.cMenu{
+    max-width: 250px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
+    margin: 20px auto 50px;
+    row-gap: 10px;
+}
+
+.clasBtnMenu{
+    display: block;
+    font-size: 1.3rem;    
+    background-color: #4caf70;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 5px;
+    padding: 14px 28px;
+    transition: transform 0.15s ease-in-out;
+    float: right;
+}
+
