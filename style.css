@@ -95,6 +95,12 @@ h2{
     margin-bottom: 100px;
 }
 
+.contI{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+}
+
 .pLogueo{
     padding-top: 1px;
     text-align: right;
