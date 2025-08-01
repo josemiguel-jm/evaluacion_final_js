@@ -165,3 +165,6 @@ h2{
     float: right;
 }
 
+.inpIng{
+    display: flex;
+}
